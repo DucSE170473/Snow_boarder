@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &8237389094255375911
+--- !u!1 &7534083162159751465
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,40 +8,41 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 8106365962091925228}
-  - component: {fileID: 6901928180321313612}
-  - component: {fileID: 2412652566355846548}
-  - component: {fileID: 7734959818772534237}
-  - component: {fileID: 3331598195757944433}
+  - component: {fileID: 4349236182036293275}
+  - component: {fileID: 3574856127065902662}
+  - component: {fileID: 7522455683524127359}
+  - component: {fileID: 7213415864597175576}
+  - component: {fileID: 7936072484955875702}
+  - component: {fileID: -2268896015948946191}
   m_Layer: 0
-  m_Name: plane
-  m_TagString: plane
+  m_Name: Bird
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &8106365962091925228
+--- !u!4 &4349236182036293275
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8237389094255375911}
+  m_GameObject: {fileID: 7534083162159751465}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.007910759, y: -0.007865351, z: 0.00006222477, w: 0.9999378}
-  m_LocalPosition: {x: 7486, y: -51, z: 116}
-  m_LocalScale: {x: 1.4934, y: 1.4297237, z: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.7328, y: 0.5038, z: 0}
+  m_LocalScale: {x: 4.7578, y: 5.0303, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0.907, y: -0.901, z: 0}
---- !u!212 &6901928180321313612
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &3574856127065902662
 SpriteRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8237389094255375911}
+  m_GameObject: {fileID: 7534083162159751465}
   m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 0
@@ -79,51 +80,46 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -622007045439344419, guid: 453c76f3a22c3bb4d8998f917122f56c, type: 3}
+  m_Sprite: {fileID: -855298285791758126, guid: e416d7e37f297724aa25633a8627adc8, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 4.87, y: 2.41}
+  m_Size: {x: 0.39, y: 0.25}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!50 &2412652566355846548
-Rigidbody2D:
-  serializedVersion: 5
+--- !u!95 &7522455683524127359
+Animator:
+  serializedVersion: 7
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8237389094255375911}
-  m_BodyType: 0
-  m_Simulated: 1
-  m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 1
-  m_LinearDamping: 0
-  m_AngularDamping: 0.05
-  m_GravityScale: 0
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 0
---- !u!61 &7734959818772534237
+  m_GameObject: {fileID: 7534083162159751465}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: c5748d901e4416f44b51e6c8d07a7861, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
+--- !u!61 &7213415864597175576
 BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8237389094255375911}
+  m_GameObject: {fileID: 7534083162159751465}
   m_Enabled: 1
   serializedVersion: 3
   m_Density: 1
@@ -155,27 +151,58 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 4.87, y: 2.41}
-    newSize: {x: 4.87, y: 2.41}
+    oldSize: {x: 0.39, y: 0.25}
+    newSize: {x: 0.39, y: 0.25}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 4.87, y: 2.41}
+  m_Size: {x: 0.39, y: 0.25}
   m_EdgeRadius: 0
---- !u!114 &3331598195757944433
+--- !u!114 &7936072484955875702
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8237389094255375911}
+  m_GameObject: {fileID: 7534083162159751465}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 680f525df8a659641a78a7c50c14c9a2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  planePrefab: {fileID: 8237389094255375911}
+  planePrefab: {fileID: 8237389094255375911, guid: fd08ec6c0bd29ae4ead9e053c37a4100, type: 3}
   spawnPoints:
   - {fileID: 0}
-  spawnInterval: 5
+  - {fileID: 0}
+  - {fileID: 0}
+  minSpawnInterval: 3
+  maxSpawnInterval: 7
+  spawnInterval: 0
+--- !u!50 &-2268896015948946191
+Rigidbody2D:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7534083162159751465}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
