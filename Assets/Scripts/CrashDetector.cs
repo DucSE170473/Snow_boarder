@@ -21,8 +21,12 @@ public class CrashDetector : MonoBehaviour
             FindObjectOfType<PlayerController>().DisableControls();
             Debug.Log("Ouch!");
             crashEffect.Play();
+            AudioManager.Instance.StopBackgroundMusic();
             GetComponent<AudioSource>().PlayOneShot(crashSFX);
             Time.timeScale = 0f;
+            int? score = FindObjectOfType<PlayerController>().score;
+            string mapName = SceneManager.GetActiveScene().name;
+            ScoreController.Instance.SetNewHighScore(score, mapName);
             gameOver.SetActive(true);
         }
         if (other.tag==("plane")) // N?u ch?m Plane th? ch?t
@@ -31,8 +35,12 @@ public class CrashDetector : MonoBehaviour
             FindObjectOfType<PlayerController>().DisableControls();
             Debug.Log("Ouch!");
             crashEffect.Play();
+            AudioManager.Instance.StopBackgroundMusic();
             GetComponent<AudioSource>().PlayOneShot(crashSFX);
             Time.timeScale = 0f;
+            int? score = FindObjectOfType<PlayerController>().score;
+            string mapName = SceneManager.GetActiveScene().name;
+            ScoreController.Instance.SetNewHighScore(score, mapName);
             gameOver.SetActive(true);
         }
     }

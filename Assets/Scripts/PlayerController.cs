@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.SocialPlatforms.Impl;
 
 public class PlayerController : MonoBehaviour
@@ -101,6 +102,8 @@ public class PlayerController : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("finish"))
         {
+            string mapName = SceneManager.GetActiveScene().name;
+            ScoreController.Instance.SetNewHighScore(score, mapName);
             Time.timeScale = 0f;
             gameObject.SetActive(true);
         }

@@ -11,6 +11,10 @@ public class FinishLine : MonoBehaviour
     void OnTriggerEnter2D(Collider2D other) {
         if(other.tag == "Player")
         {
+            int? score = FindObjectOfType<PlayerController>().score;
+            string mapName = SceneManager.GetActiveScene().name;
+            ScoreController.Instance.SetNewHighScore(score, mapName);
+            AudioManager.Instance.StopBackgroundMusic();
             Debug.Log("You Finished!");
             finishEffect.Play();
             GetComponent<AudioSource>().Play();
