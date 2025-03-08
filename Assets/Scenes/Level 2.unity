@@ -18800,6 +18800,22 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3331598195757944433, guid: fd08ec6c0bd29ae4ead9e053c37a4100, type: 3}
+      propertyPath: maxPlanes
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3331598195757944433, guid: fd08ec6c0bd29ae4ead9e053c37a4100, type: 3}
+      propertyPath: spawnRate
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3331598195757944433, guid: fd08ec6c0bd29ae4ead9e053c37a4100, type: 3}
+      propertyPath: destroyDelay
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3331598195757944433, guid: fd08ec6c0bd29ae4ead9e053c37a4100, type: 3}
+      propertyPath: 'spawnPoints.Array.data[0]'
+      value: 
+      objectReference: {fileID: 1665712524}
     - target: {fileID: 6901928180321313612, guid: fd08ec6c0bd29ae4ead9e053c37a4100, type: 3}
       propertyPath: m_Sprite
       value: 
@@ -23197,7 +23213,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -409, y: 262}
+  m_AnchoredPosition: {x: 437, y: 389}
   m_SizeDelta: {x: 216.4345, y: 46.0477}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1645286648
