@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      bolt-icon-button-yellow_0: -2747319728621664981
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
