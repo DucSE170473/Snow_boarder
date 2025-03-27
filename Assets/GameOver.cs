@@ -60,6 +60,10 @@ public class GameOver : MonoBehaviour
         {
             AudioManager.Instance.PlayTheme3BackgroundMusic();
         }
+        else if (SceneManager.GetActiveScene().name == "ChallegeMode")
+        {
+            AudioManager.Instance.PlayThemeChallengeModeBackgroundMusic();
+        }
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
     public void Level3()
@@ -79,6 +83,13 @@ public class GameOver : MonoBehaviour
         Time.timeScale = 1f;
         SceneManager.LoadScene("Level 2");
         AudioManager.Instance.PlayTheme2BackgroundMusic();
+    }
+
+    public void LevelChanllenge()
+    {
+        Time.timeScale = 1f;
+        SceneManager.LoadScene("ChallegeMode");
+        AudioManager.Instance.PlayThemeChallengeModeBackgroundMusic();
     }
 
     public void Options()

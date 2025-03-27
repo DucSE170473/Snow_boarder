@@ -29,5 +29,8 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Level 1.unity
     guid: 59891424181f4de4b960189591c2b858
+  - enabled: 1
+    path: Assets/Scenes/ChallegeMode.unity
+    guid: 78a1f0d24b64400429e9fba263544ad6
   m_configObjects: {}
   m_UseUCBPForAssetBundles: 0

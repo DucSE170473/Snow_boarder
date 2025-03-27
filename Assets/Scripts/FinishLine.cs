@@ -12,8 +12,10 @@ public class FinishLine : MonoBehaviour
         if(other.tag == "Player")
         {
             int? score = FindObjectOfType<PlayerController>().score;
+            float? fastestTime = FindObjectOfType<PlayerController>().gameTime;
             string mapName = SceneManager.GetActiveScene().name;
-            ScoreController.Instance.SetNewHighScore(score, mapName);
+            if(mapName != "ChallegeMode")
+                 ScoreController.Instance.SetNewHighScore(score: score, fastestTime: fastestTime, sceneName: mapName);
             AudioManager.Instance.StopBackgroundMusic();
             Debug.Log("You Finished!");
             finishEffect.Play();
