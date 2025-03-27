@@ -6302,7 +6302,7 @@ Transform:
   m_GameObject: {fileID: 265191658}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -12.799176, y: 102.1, z: -10}
+  m_LocalPosition: {x: -16.5367, y: 102.1, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -6650,7 +6650,7 @@ Transform:
   m_GameObject: {fileID: 285298115}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -12.799176, y: 102.1, z: -10}
+  m_LocalPosition: {x: -16.5367, y: 102.1, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -15031,10 +15031,10 @@ MonoBehaviour:
   jumpForce: 10
   groundLayer:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 8
   gameObject: {fileID: 1483720079}
   groundCheck: {fileID: 857358919}
-  groundCheckRadius: 0.2
+  groundCheckRadius: 1.5
   score: 0
   textMeshProUGUI: {fileID: 2108030040}
 --- !u!114 &857358914
@@ -19928,7 +19928,7 @@ GameObject:
   - component: {fileID: 1452266123}
   - component: {fileID: 1452266122}
   - component: {fileID: 1452266121}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Level Sprite Shape
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -23213,8 +23213,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 437, y: 389}
-  m_SizeDelta: {x: 216.4345, y: 46.0477}
+  m_AnchoredPosition: {x: 323.03955, y: 212}
+  m_SizeDelta: {x: 198.3553, y: 46.0477}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1645286648
 MonoBehaviour:
@@ -23236,7 +23236,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -7983890203936308611, guid: e6b5564d39338e04bb0232ec2b734b7b, type: 3}
+  m_Sprite: {fileID: 4113829005332862926, guid: ed10fb764710cf74c8ca243305518d8b, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -29959,7 +29959,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0.87, y: 4.09}
+  m_Offset: {x: 0.87, y: 34.38982}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -29969,7 +29969,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 1.23, y: 14.34}
+  m_Size: {x: 1.23, y: 74.939644}
   m_EdgeRadius: 0
 --- !u!4 &1850477283
 Transform:
@@ -37728,7 +37728,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_margin: {x: 7.0307617, y: 0, z: -11.04834, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0

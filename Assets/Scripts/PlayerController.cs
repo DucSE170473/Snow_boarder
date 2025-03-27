@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
@@ -18,7 +19,7 @@ public class PlayerController : MonoBehaviour
     bool canMove = true;
     bool isGrounded = false; 
     [SerializeField] Transform groundCheck; 
-    [SerializeField] float groundCheckRadius = 0.2f;
+    [SerializeField] float groundCheckRadius = 1.5f;
     public int score = 0;
     public TextMeshProUGUI textMeshProUGUI;
     

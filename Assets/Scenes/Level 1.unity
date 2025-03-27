@@ -8261,7 +8261,7 @@ GameObject:
   - component: {fileID: 504121428}
   - component: {fileID: 504121427}
   - component: {fileID: 504121431}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Level Sprite Shape
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -19408,7 +19408,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0.7217407, y: 0, z: -0.08795166, w: 2.527008}
+  m_margin: {x: 19.26892, y: 0, z: 14.869568, w: 2.527008}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -29017,11 +29017,11 @@ GameObject:
   m_Component:
   - component: {fileID: 2022333968}
   - component: {fileID: 2022333967}
+  - component: {fileID: 2022333971}
   - component: {fileID: 2022333965}
   - component: {fileID: 2022333970}
   - component: {fileID: 2022333969}
   - component: {fileID: 2022333973}
-  - component: {fileID: 2022333971}
   - component: {fileID: 2022333972}
   - component: {fileID: 2022333974}
   m_Layer: 0
@@ -29223,10 +29223,10 @@ MonoBehaviour:
   jumpForce: 10
   groundLayer:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 8
   gameObject: {fileID: 1540909752}
   groundCheck: {fileID: 2022333968}
-  groundCheckRadius: 0.2
+  groundCheckRadius: 1.5
   score: 0
   textMeshProUGUI: {fileID: 1320502097}
 --- !u!114 &2022333972
@@ -29781,7 +29781,7 @@ GameObject:
   - component: {fileID: 2105941279}
   - component: {fileID: 2105941278}
   m_Layer: 5
-  m_Name: background
+  m_Name: button
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -29804,8 +29804,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 431, y: 393}
-  m_SizeDelta: {x: 216.4345, y: 46.0477}
+  m_AnchoredPosition: {x: 381.23804, y: 238}
+  m_SizeDelta: {x: 181.9585, y: 46.0477}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2105941278
 MonoBehaviour:
@@ -29827,7 +29827,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -7983890203936308611, guid: e6b5564d39338e04bb0232ec2b734b7b, type: 3}
+  m_Sprite: {fileID: 4113829005332862926, guid: ed10fb764710cf74c8ca243305518d8b, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1

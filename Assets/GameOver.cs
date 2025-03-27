@@ -48,38 +48,39 @@ public class GameOver : MonoBehaviour
 
     public void RestartLevelGame()
     {
-        Time.timeScale = 1f; // ??t l?i t?c ?? th?i gian n?u nó ?ã ???c thay ??i
+        Time.timeScale = 1f; 
         if (SceneManager.GetActiveScene().name == "Level 1")
         {
             AudioManager.Instance.PlayTheme1BackgroundMusic();
-        } else if(SceneManager.GetActiveScene().name == "Level 2")
+        }
+        else if(SceneManager.GetActiveScene().name == "Level 2")
         {
             AudioManager.Instance.PlayTheme2BackgroundMusic();
         } else if(SceneManager.GetActiveScene().name == "Level 3")
         {
             AudioManager.Instance.PlayTheme3BackgroundMusic();
         }
-        SceneManager.LoadScene(SceneManager.GetActiveScene().name); // T?i l?i scene hi?n t?i
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
     public void Level3()
     {
         Time.timeScale = 1f;
-        AudioManager.Instance.PlayTheme3BackgroundMusic();
         SceneManager.LoadScene("Level 3");
+        AudioManager.Instance.PlayTheme3BackgroundMusic();
     }
     public void MenuLevel()
     {
         Time.timeScale = 1f;
-        AudioManager.Instance.PlayBackgroundMusic();
         SceneManager.LoadScene("MenuLevel");
+        AudioManager.Instance.PlayBackgroundMusic();
     }
     public void Level2()
     {
         Time.timeScale = 1f;
-        AudioManager.Instance.PlayTheme2BackgroundMusic();
         SceneManager.LoadScene("Level 2");
+        AudioManager.Instance.PlayTheme2BackgroundMusic();
     }
-   
+
     public void Options()
     {
         SceneManager.LoadScene("Option");
