@@ -26,7 +26,7 @@ public class CrashDetector : MonoBehaviour
             Time.timeScale = 0f;
             int? score = FindObjectOfType<PlayerController>().score;
             string mapName = SceneManager.GetActiveScene().name;
-            ScoreController.Instance.SetNewHighScore(score, mapName);
+            ScoreController.Instance.SetNewHighScore(score: score, fastestTime: null, sceneName: mapName);
             gameOver.SetActive(true);
         }
         if (other.tag==("plane")) // N?u ch?m Plane th? ch?t
@@ -40,7 +40,7 @@ public class CrashDetector : MonoBehaviour
             Time.timeScale = 0f;
             int? score = FindObjectOfType<PlayerController>().score;
             string mapName = SceneManager.GetActiveScene().name;
-            ScoreController.Instance.SetNewHighScore(score, mapName);
+            ScoreController.Instance.SetNewHighScore(score: score, fastestTime: null, sceneName: mapName);
             gameOver.SetActive(true);
         }
     }

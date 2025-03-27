@@ -15,6 +15,7 @@ public class AudioManager : MonoBehaviour
     public AudioClip themeMap1;
     public AudioClip themeMap2;
     public AudioClip themeMap3;
+    public AudioClip themeChanllengeMap;
 
     public float backGroundVolume = 0.8f;
     public float mapThemeVolume = 0.3f;
@@ -81,6 +82,20 @@ public class AudioManager : MonoBehaviour
         }
 
         backgroundMusicSource.clip = themeMap3;
+        backgroundMusicSource.loop = true;
+        backgroundMusicSource.volume = mapThemeVolume;
+        backgroundMusicSource.Play();
+    }
+
+    public void PlayThemeChallengeModeBackgroundMusic()
+    {
+        if (backgroundMusicSource.clip == themeChanllengeMap)
+        {
+            backgroundMusicSource.time = 0;
+            backgroundMusicSource.Play();
+        }
+
+        backgroundMusicSource.clip = themeChanllengeMap;
         backgroundMusicSource.loop = true;
         backgroundMusicSource.volume = mapThemeVolume;
         backgroundMusicSource.Play();
