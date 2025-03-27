@@ -81,11 +81,15 @@ public class ScoreController : MonoBehaviour
         }
         else if (sceneName == "ChallegeMode")
         {
-            if (score < highScore.highScoreChallenegeMap || null != highScore.highScoreChallenegeMap)
+            if(fastestTime != null)
             {
-                highScore.highScoreChallenegeMap = (float)fastestTime;
-                SaveToFile();
+                if (fastestTime >= highScore.highScoreChallenegeMap || null != highScore.highScoreChallenegeMap)
+                {
+                    highScore.highScoreChallenegeMap = (float)fastestTime;
+                    SaveToFile();
+                }
             }
+            
         }
     }
     private void SaveToFile()

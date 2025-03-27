@@ -28,17 +28,16 @@ public class PlayerController : MonoBehaviour
     public int numberOfSpeedEffect = 0;
     [SerializeField] AudioClip bootSpeedClip;
     [SerializeField] public float gameTime = 10f;
-    float mapStartTime;
     [SerializeField] TextMeshProUGUI timeText;
     [SerializeField] AudioClip crashSFX;
     public GameObject gameOver;
     private bool isOutOfTime = false;
+    [SerializeField] TextMeshProUGUI winnerTimeText;
 
     void Start()
     {
         rb2d = GetComponent<Rigidbody2D>();
         surfaceEffector2D = FindObjectOfType<SurfaceEffector2D>();
-        mapStartTime = gameTime;
     }
         
     void Update()
@@ -150,9 +149,15 @@ public class PlayerController : MonoBehaviour
         if (collision.gameObject.CompareTag("finish"))
         {
             string mapName = SceneManager.GetActiveScene().name;
-            ScoreController.Instance.SetNewHighScore(score: score, fastestTime: mapStartTime - gameTime,sceneName: mapName);
+            ScoreController.Instance.SetNewHighScore(score: score, fastestTime: gameTime,sceneName: mapName);
             Time.timeScale = 0f;
             gameObject.SetActive(true);
+
+
+            if (winnerTimeText != null)
+            {
+                winnerTimeText.SetText("Time Left: " + Mathf.Ceil(gameTime) + "s");
+            }
         }
     }
 
