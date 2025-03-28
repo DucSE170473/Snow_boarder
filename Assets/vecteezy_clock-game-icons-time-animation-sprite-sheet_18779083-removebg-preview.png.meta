@@ -1,0 +1,430 @@
+fileFormatVersion: 2
+guid: 77ce8f6b15bcc92418b4d725b99edfc9
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7560703913741989662
+    second: vecteezy_clock-game-icons-time-animation-sprite-sheet_18779083-removebg-preview_0
+  - first:
+      213: -4502394068479654890
+    second: vecteezy_clock-game-icons-time-animation-sprite-sheet_18779083-removebg-preview_1
+  - first:
+      213: -9025487975733364175
+    second: vecteezy_clock-game-icons-time-animation-sprite-sheet_18779083-removebg-preview_2
+  - first:
+      213: 3028388015333199581
+    second: vecteezy_clock-game-icons-time-animation-sprite-sheet_18779083-removebg-preview_3
+  - first:
+      213: 218554306418860710
+    second: vecteezy_clock-game-icons-time-animation-sprite-sheet_18779083-removebg-preview_4
+  - first:
+      213: -4669307280845107050
+    second: vecteezy_clock-game-icons-time-animation-sprite-sheet_18779083-removebg-preview_5
+  - first:
+      213: -3098867881870694632
+    second: vecteezy_clock-game-icons-time-animation-sprite-sheet_18779083-removebg-preview_6
+  - first:
+      213: -5066894088994174542
+    second: vecteezy_clock-game-icons-time-animation-sprite-sheet_18779083-removebg-preview_7
+  - first:
+      213: 3670401337418834578
+    second: vecteezy_clock-game-icons-time-animation-sprite-sheet_18779083-removebg-preview_8
+  - first:
+      213: -7671001064039681745
+    second: vecteezy_clock-game-icons-time-animation-sprite-sheet_18779083-removebg-preview_9
+  - first:
+      213: -209091499509637002
+    second: vecteezy_clock-game-icons-time-animation-sprite-sheet_18779083-removebg-preview_10
+  - first:
+      213: 8274707078376008020
+    second: vecteezy_clock-game-icons-time-animation-sprite-sheet_18779083-removebg-preview_11
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: vecteezy_clock-game-icons-time-animation-sprite-sheet_18779083-removebg-preview_0
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 177
+        width: 84
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e8c08949dbf21790800000000000000
+      internalID: -7560703913741989662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_clock-game-icons-time-animation-sprite-sheet_18779083-removebg-preview_1
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 177
+        width: 83
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 614c17d03784481c0800000000000000
+      internalID: -4502394068479654890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_clock-game-icons-time-animation-sprite-sheet_18779083-removebg-preview_2
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 177
+        width: 83
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13a7ad151860fb280800000000000000
+      internalID: -9025487975733364175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_clock-game-icons-time-animation-sprite-sheet_18779083-removebg-preview_3
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 177
+        width: 83
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dde4cf7dadef60a20800000000000000
+      internalID: 3028388015333199581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_clock-game-icons-time-animation-sprite-sheet_18779083-removebg-preview_4
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 177
+        width: 83
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a26a36dbf5780300800000000000000
+      internalID: 218554306418860710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_clock-game-icons-time-animation-sprite-sheet_18779083-removebg-preview_5
+      rect:
+        serializedVersion: 2
+        x: 689
+        y: 177
+        width: 84
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 690151264c9433fb0800000000000000
+      internalID: -4669307280845107050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_clock-game-icons-time-animation-sprite-sheet_18779083-removebg-preview_6
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 39
+        width: 84
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 817ea37741c9ef4d0800000000000000
+      internalID: -3098867881870694632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_clock-game-icons-time-animation-sprite-sheet_18779083-removebg-preview_7
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 39
+        width: 83
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b9c9feeba6cea9b0800000000000000
+      internalID: -5066894088994174542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_clock-game-icons-time-animation-sprite-sheet_18779083-removebg-preview_8
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 39
+        width: 83
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 292e7fbd192efe230800000000000000
+      internalID: 3670401337418834578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_clock-game-icons-time-animation-sprite-sheet_18779083-removebg-preview_9
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 39
+        width: 83
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f21754acc212b8590800000000000000
+      internalID: -7671001064039681745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_clock-game-icons-time-animation-sprite-sheet_18779083-removebg-preview_10
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 39
+        width: 83
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 670ac269368291df0800000000000000
+      internalID: -209091499509637002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_clock-game-icons-time-animation-sprite-sheet_18779083-removebg-preview_11
+      rect:
+        serializedVersion: 2
+        x: 689
+        y: 39
+        width: 84
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 459230b1f3aa5d270800000000000000
+      internalID: 8274707078376008020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

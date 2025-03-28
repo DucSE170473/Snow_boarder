@@ -27,6 +27,8 @@ public class PlayerController : MonoBehaviour
     [SerializeField] bool challengeMode = false;
     public int numberOfSpeedEffect = 0;
     [SerializeField] AudioClip bootSpeedClip;
+    [SerializeField] AudioClip TimeBoostSound;
+
     [SerializeField] public float gameTime = 10f;
     [SerializeField] TextMeshProUGUI timeText;
     [SerializeField] AudioClip crashSFX;
@@ -38,6 +40,7 @@ public class PlayerController : MonoBehaviour
     {
         rb2d = GetComponent<Rigidbody2D>();
         surfaceEffector2D = FindObjectOfType<SurfaceEffector2D>();
+        Update();
     }
         
     void Update()
@@ -145,6 +148,13 @@ public class PlayerController : MonoBehaviour
                 Destroy(collision.gameObject);
                 AudioManager.Instance.PlaySoundEffect(bootSpeedClip);
             }
+            if (collision.gameObject.CompareTag("TimeBoostItem"))
+            {
+                Debug.Log("+1s");
+                StartCoroutine(BoostSpeedForSeconds(3f));
+                Destroy(collision.gameObject);
+                AudioManager.Instance.PlaySoundEffect(TimeBoostSound);
+            }
         }
         if (collision.gameObject.CompareTag("finish"))
         {
@@ -159,6 +169,14 @@ public class PlayerController : MonoBehaviour
                 winnerTimeText.SetText("Time Left: " + Mathf.Ceil(gameTime) + "s");
             }
         }
+        else if (collision.gameObject.CompareTag("TimeBoostItem")) // 🆕 Nhặt Time Boost Item
+        {
+            Debug.Log("Time Boost +1s!");
+            gameTime += 1f; // Tăng thêm 1 giây
+            Update();  // Cập nhật UI ngay lập tức
+            Destroy(collision.gameObject); // Xóa vật phẩm sau khi nhặt
+        }
+
     }
 
 

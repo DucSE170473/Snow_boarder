@@ -8,6 +8,7 @@ TagManager:
   - Ground
   - plane
   - SpeedBoot
+  - TimeBoostItem
   layers:
   - Default
   - TransparentFX
